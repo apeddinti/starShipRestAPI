@@ -7,13 +7,11 @@ import lombok.Data;
 
 @Data
 public class SpaceShip {
-
-	private String name,model,manufacturer,costInCredits,length,
-	maxAtmospheringSpeed,crew,passengers,cargoCapacity,consumbles,hyperdriveRating,
-	MGLT,starShipClass;
+	private String name,model,manufacturer,cost_in_credits,length,
+	max_atmosphering_speed,crew,passengers,cargo_capacity,consumbles,hyperdrive_rating,
+	MGLT,starship_class;
 	private List<String> pilots;
 	private List<String> films;
-	private Date created;
-	private Date edited;
-	
+	private String created;
+	private String edited;	
 }

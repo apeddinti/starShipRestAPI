@@ -7,6 +7,6 @@
 <title>Pilot Detail</title>
 </head>
 <body>
-
+${pilot}
 </body>
 </html>
